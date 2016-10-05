@@ -12,5 +12,4 @@ This is my first web application. The app intends to solve the problem of saving
 
 ## Authors
 
-* **Aseem Rastogi** - *Initial work* - [PurpleBooth](https://github.com/Noobaseem)
- who participated in this project.
+* **Aseem Rastogi** - [Check my other repos](https://github.com/Noobaseem)
