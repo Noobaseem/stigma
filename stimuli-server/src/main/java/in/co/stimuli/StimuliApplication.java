@@ -5,6 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
+/**
+ * 
+ * @author aseem
+ *
+ */
+
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
 @ComponentScan(basePackages = {"in.co.stimuli",
 								"in.co.stimuli.services",
