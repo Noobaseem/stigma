@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { LandingComponent } from './landing.component';
 import { EventsSidebarComponent } from './events-sidebar/events-sidebar.component';
 import { LandingContentComponent } from './landing-content/landing-content.component';
+import { LandingCategoriesComponent } from './landing-content/landing-categories/landing-categories.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     LandingComponent,
     EventsSidebarComponent,
-    LandingContentComponent
+    LandingContentComponent,
+    LandingCategoriesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +25,9 @@ import { LandingContentComponent } from './landing-content/landing-content.compo
   exports: [
     LandingComponent,
     EventsSidebarComponent,
-    LandingContentComponent
+    LandingContentComponent,
+    LandingCategoriesComponent,
+    FooterComponent
   ],
   providers: [],
 })

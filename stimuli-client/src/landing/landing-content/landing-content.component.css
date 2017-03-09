@@ -1,0 +1,9 @@
+.showcase {
+    float: left;
+    width: 80%;
+}
+
+.categories {
+    float: right;
+    width: 20%;
+}   

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Constants } from '../utilities/constants';
 
 @Component({
   selector: 'stimuli-navbar',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-	
+	appTitle = Constants.APP_TITLE;
 }
